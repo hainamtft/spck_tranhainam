@@ -14,5 +14,7 @@
     padding: 10px;
 }
 body{
-background-color: aqua;
+    background: linear-gradient(145deg, #3de3da, #1badec);
+    background-size: cover;
+    background-position: center;
 }
