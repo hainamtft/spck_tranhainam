@@ -3,7 +3,8 @@
     padding: 0;
 }
 .div2 {
-    background: linear-gradient(145deg, #3de3da, #1badec);
+    /* background: linear-gradient(145deg, #3de3da, #1badec); */
+    background: linear-gradient(145deg, #000000, #374145);
     display: flex;
     justify-content: center 
 }
