@@ -11,15 +11,15 @@
 }
 .back {
     color: rgb(248, 248, 248);
-    font-size: 25px;
+    font-size: 35px;
     margin: 10px;
     text-decoration: none;
 }
 .nav-trai {
-    margin-right: 730px;
+    margin-right: 400px;
 }   
 .nav{
-    margin-top: 1000px;
+    margin-top: 600px;
     background: linear-gradient(145deg, #000000, #374145);
 }
 .nav3{
@@ -34,4 +34,16 @@
 }
 .back:hover {
     background-color: #615a5a;
+}
+.sanpham{
+    display: flex;
+}
+.sanpham1{
+    background-color: #f9f1f1;
+    margin-bottom: 130px;
+    margin-left: 130px;
+}
+.h1{
+    
+   
 }

@@ -1,25 +1,25 @@
 let products = {
     data: [
         {
-            name: "",
+            name: "MSI-gaming",
             price: "",
             image: "",
         },
 
         {
-            name: "",
+            name: "MSI-prestige",
             price: "",
             image: "",
         },
 
         {
-            name: "",
+            name: "MSI-",
             price: "",
             image: "",
         },
 
         {
-            name: "",
+            name: "PC",
             price: "",
             image: "",
         },
@@ -75,7 +75,7 @@ let products = {
         {                   
             name: "",
             price: "",
-            image: "    ",
+            image: "",
         },
     ]
 }
