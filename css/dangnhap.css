@@ -7,7 +7,7 @@
     margin-left: 700px;
     margin-top: 200px;
     color: white;
-
+    
 }
 #button {
     border-radius: 50px;
@@ -18,6 +18,7 @@ body{
     background-image: url(../img/Screenshot\ 2024-03-30\ 220501.png);
     background-size: cover;
     background-position: center;
+   
 }
 .dangnhap{
     text-decoration: none;  

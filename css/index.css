@@ -14,13 +14,12 @@
     font-size: 25px;
     margin: 10px;
     text-decoration: none;
-    
 }
 .nav-trai {
-    margin-right: 800px;
-}
+    margin-right: 730px;
+}   
 .nav{
-    margin-top: 800px;
+    margin-top: 1000px;
     background: linear-gradient(145deg, #000000, #374145);
 }
 .nav3{
@@ -32,4 +31,7 @@
 }
 .contact{
     
+}
+.back:hover {
+    background-color: #615a5a;
 }
