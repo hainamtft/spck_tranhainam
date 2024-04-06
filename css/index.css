@@ -43,7 +43,7 @@
     margin-bottom: 130px;
     margin-left: 130px;
 }
-.h1{
-    
-   
+.sp{
+    display: flex;
+    justify-content: center;
 }
