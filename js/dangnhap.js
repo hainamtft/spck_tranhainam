@@ -1,4 +1,4 @@
-var login = document.getElementById("button");
+ loginvar = document.getElementById("button");
 login.addEventListener("click",getvalue);
 function getvalue(){
     let name = document.getElementById("name").value;
@@ -18,6 +18,6 @@ function getvalue(){
     }
     else {
         alert("đăng nhập thành công");
-        window.location.href ="../index.html";
+        location.href ="./html/index.html";
     }
 }

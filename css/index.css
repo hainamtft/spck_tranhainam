@@ -33,7 +33,7 @@
     
 }
 .back:hover {
-    background-color: #615a5a;
+    background-color: #383535;
 }
 .sanpham{
     display: flex;
@@ -46,4 +46,5 @@
 .sp{
     display: flex;
     justify-content: center;
+    margin-top: 25px;
 }
