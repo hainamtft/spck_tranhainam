@@ -4,7 +4,17 @@ function getvalue(){
     let name = document.getElementById("name").value;
     let gmail = document.getElementById("gmail").value;
     let password = document.getElementById("password").value;
-    if ( name === "" && gmail === "" && password === ""){
+    var user = localStorage.getItem(name);
+    var data = JSON.parse(dangky);
+    if(dangky == null){
+        alert("vui lòng nhập name và password");
+    }
+    else if(
+        name == date.name && gmail == date.gmail && password == date.password 
+    ){
+        alert
+    }
+    else if ( name === "" && gmail === "" && password === ""){
         alert("vui lòng điền thông tin")
     }
     else if (name === ""){

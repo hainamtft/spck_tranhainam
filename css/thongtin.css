@@ -1,10 +1,9 @@
 *{
     margin: 0px;
-    padding: 0;
+    padding: 0px;
     font-family: Open Sans;
 }
 .div2 {
-    /* background: linear-gradient(145deg, #3de3da, #1badec); */
     background: linear-gradient(145deg, #000000, #374145);
     display: flex;
     justify-content: center 
@@ -12,7 +11,7 @@
 .back {
     color: rgb(248, 248, 248);
     font-size: 20px;
-    margin: 10px;
+    margin: 20px;
     text-decoration: none;
 }
 .nav-trai {
@@ -39,22 +38,37 @@
 .tt{
     display: flex;
     justify-content: center;
-    /* margin-top: 100px;
-    margin-bottom: 40px; */
+    margin-top: 30px;
+    margin-bottom: 20px ;
 }
 .img1 {
-    /* display: flex;
-    padding-left: 15px; */
+    background-color: #615a5a   ;
 }
 .img2 {
     /* display: flex; */
 }
 .a{
     text-decoration: none;
+    padding-top: 100px;
 }
 .img12{
 
 }
 .nav-phai{
     margin-top: 10px;
+}
+.img05{
+    margin-left: 50px;
+    padding-top: 30px;
+    display: flex;
+    
+}
+.nganh {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    padding-top: 40px;
+}
+.nganh1{
+    padding-top: 30px;
 }

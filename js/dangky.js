@@ -5,6 +5,15 @@ function getvalue(){
     let gmail = document.getElementById("gmail").value;
     let password = document.getElementById("password").value;
     let sdt = document.getElementById("sdt").value;
+    var dangky = {
+                name: name,
+                gmail: gmail,
+                sdt: sdt,
+                password: password,
+            };
+            var json = JSON.stringify(dangky);
+                localStorage.setItem(name, json);
+                alert("Đăng ký thành công");  
     if ( name === "" && gmail === "" && password === "" && sdt === ""){
         alert("vui lòng điền thông tin")
     }
@@ -25,3 +34,4 @@ function getvalue(){
         location.href ="../html/dangnhap.html";
     }
 }
+Q
