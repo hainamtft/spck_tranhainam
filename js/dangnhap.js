@@ -5,29 +5,17 @@ function getvalue(){
     let gmail = document.getElementById("gmail").value;
     let password = document.getElementById("password").value;
     var user = localStorage.getItem(name);
-    var data = JSON.parse(dangky);
-    if(dangky == null){
+    var data = JSON.parse(user);
+    if(user == null){
         alert("vui lòng nhập name và password");
     }
     else if(
-        name == date.name && gmail == date.gmail && password == date.password 
+        name == data.name && gmail == data.gmail && password == data.password 
     ){
-        alert
-    }
-    else if ( name === "" && gmail === "" && password === ""){
-        alert("vui lòng điền thông tin")
-    }
-    else if (name === ""){
-        alert("vui lòng điền tên")
-    }
-    else if(gmail === ""){
-        alert("vui lòng điền gmail")
-    }
-    else if(password === ""){
-        alert("vui lòng điền password")
+        alert("đăng nhập thành công")
+        location.href="../html/index.html";
     }
     else {
-        alert("đăng nhập thành công");
-        location.href ="../html/index.html";
+        alert("đăng nhập thất bại")
     }
 }

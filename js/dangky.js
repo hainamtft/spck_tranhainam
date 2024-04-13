@@ -12,8 +12,7 @@ function getvalue(){
                 password: password,
             };
             var json = JSON.stringify(dangky);
-                localStorage.setItem(name, json);
-                alert("Đăng ký thành công");  
+                localStorage.setItem(name, json);  
     if ( name === "" && gmail === "" && password === "" && sdt === ""){
         alert("vui lòng điền thông tin")
     }
