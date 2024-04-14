@@ -7,7 +7,7 @@ function getvalue(){
     var user = localStorage.getItem(name);
     var data = JSON.parse(user);
     if(user == null){
-        alert("sai name và password và gmail");
+        alert("sai thông tin");
     }
     else if(
         name == data.name && gmail == data.gmail && password == data.password 
