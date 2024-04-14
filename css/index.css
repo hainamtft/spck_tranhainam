@@ -46,6 +46,7 @@
     margin-bottom: 130px;
     margin-left: 130px;
     color: #f9f1f1;
+    text-decoration: none;
 
 }
 .sp{
@@ -153,4 +154,8 @@ section {
     .footer-distributed .footer-left p.footer-links {
       line-height: 1.8;
     }
+  }
+  .h9{
+    text-decoration: none;
+    color: #f9f1f1;
   }
