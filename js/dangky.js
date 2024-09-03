@@ -8,7 +8,7 @@ function getvalue(){
     var dangky = {
                 name: name,
                 gmail: gmail,
-                sdt: sdt,
+                sdt: sdt,   
                 password: password,
             };
             var json = JSON.stringify(dangky);
